@@ -4,6 +4,8 @@ html, body {
 }
 
 body {
+    position: relative;
+    height: 100vh;
     margin: 0;
 }
 
@@ -112,14 +114,17 @@ input:hover {
 .footer-bar {
     border-top: 1px solid #e4e4e4;
     background-color: #f2f2f2;
-    min-height: 30px;
+    min-height: 2.5rem;
     display: flex;
-    flex-direction: row;
     list-style-type: none;    
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .footer-bar a {
